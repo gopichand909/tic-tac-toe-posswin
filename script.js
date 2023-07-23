@@ -207,7 +207,7 @@ function fillOval() {
 
 function fillCenter() {
   // Corner cells: [0, 2, 6, 8]
-  const nonCenterCells = [4,0,2,6,8];
+  const nonCenterCells = [0,2, 4, 6,8];
 
   for (const index of nonCenterCells) {
     if (!cellElements[index].classList.contains(X_CLASS) && !cellElements[index].classList.contains(CIRCLE_CLASS)) {
