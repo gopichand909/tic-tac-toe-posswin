@@ -78,7 +78,7 @@ function cornerContro(){
   }else{
     cellIndex=fillOval()
   }
-  alert(cellIndex)
+
   if(cellIndex==-1){
     if(isDraw()){
       endGame(true);
@@ -104,7 +104,7 @@ function centerControl(){
   }else{
     cellIndex=fillCenter()
   }
-  alert(cellIndex)
+
   if(cellIndex==-1){
     if(isDraw()){
       endGame(true);
