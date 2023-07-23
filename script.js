@@ -194,7 +194,7 @@ function posswin(currentClass) {
 
 function fillOval() {
   // Corner cells: [0, 2, 6, 8]
-  const nonCornerCells = [4,1, 3, 5, 7];
+  const nonCornerCells = [1, 3,4, 5, 7];
 
   for (const index of nonCornerCells) {
     if (!cellElements[index].classList.contains(X_CLASS) && !cellElements[index].classList.contains(CIRCLE_CLASS)) {
