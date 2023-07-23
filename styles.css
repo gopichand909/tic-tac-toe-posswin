@@ -13,18 +13,26 @@ body {
 
 h1{
 	text-align: center;
-	font-size: 8vh;
+	font-size: 4vh;
 	font-style: oblique;
+
 }
 
 .heading{
 	background-color: black;
 	color: white;
-  top: 0;
-	width: 100vw;
+	
   height: 10vh;
-}
+  position: fixed;
+  font-size: 3px;
+  top: 0;
+  left: 0;
+  width: 100%;
 
+  padding: 0px 0;
+  text-align: center;
+  z-index: 1;
+}
 .board {
   width: 100vw;
   height: 100vh;
