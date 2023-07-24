@@ -195,7 +195,7 @@ function posswin(currentClass) {
 
 function fillOval() {
   const nonCornerCells = [4,1, 3, 5, 7,0,2, 6,8];
-  if (cellElements[1].classList.contains(X_CLASS) && (cellElements[7].classList.contains(X_CLASS) ) && !cellElements[6].classList.contains(X_CLASS) && !cellElements[6].classList.contains(CIRCLE_CLASS) ) {
+  if (cellElements[0].classList.contains(X_CLASS) && (cellElements[7].classList.contains(X_CLASS) ) && !cellElements[6].classList.contains(X_CLASS) && !cellElements[6].classList.contains(CIRCLE_CLASS) ) {
     return 6;
   }
   
@@ -214,7 +214,7 @@ function fillOval() {
 function fillCenter() {
   // Corner cells: [0, 2, 6, 8]
   const nonCenterCells = [4, 0,2, 6,8, 1, 3 , 5, 7];
-  if (cellElements[1].classList.contains(X_CLASS) && (cellElements[7].classList.contains(X_CLASS) ) && !cellElements[6].classList.contains(X_CLASS) && !cellElements[6].classList.contains(CIRCLE_CLASS) ) {
+  if (cellElements[0].classList.contains(X_CLASS) && (cellElements[7].classList.contains(X_CLASS) ) && !cellElements[6].classList.contains(X_CLASS) && !cellElements[6].classList.contains(CIRCLE_CLASS) ) {
     return 6;
   }
   
